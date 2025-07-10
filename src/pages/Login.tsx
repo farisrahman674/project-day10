@@ -18,7 +18,7 @@ export default function Login() {
 
     if (username === "admin" && password === "admin") {
       login("simulated_token_abc");
-      navigate("/post");
+      navigate("/");
     } else {
       setErrorMsg("Username atau password salah");
     }
